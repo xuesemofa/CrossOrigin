@@ -1,0 +1,27 @@
+﻿#端口
+server: 
+  port: 9004
+  tomcat: 
+    uri-encoding: UTF-8
+# 数据源配置
+spring:
+  # 数据源配置
+  datasource:
+    url: jdbc:mysql://192.168.1.130:3306/consume?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+
+#  此处配置可以允许cloud服务放到同一个tomcat下面
+#  jmx:
+#    default-domain: nhxtWebService
+      
+# 日志级别
+#info: true
+logging:
+#输出到log文件
+  file: nhxtWebService3.1.log
+  level:
+    org:
+      account:
+        com: debug
