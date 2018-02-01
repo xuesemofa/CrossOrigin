@@ -2,6 +2,7 @@ package org.account.com.service.impl;
 
 import org.account.com.mapper.ObjMapper;
 import org.account.com.model.ObjectModel;
+import org.account.com.model.ObjectModel2;
 import org.account.com.service.ObjService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -19,5 +20,10 @@ public class ObjServiceImpl implements ObjService {
     @Override
     public List<ObjectModel> findAll() {
         return mapper.findAll();
+    }
+
+    @Override
+    public ObjectModel2 findAll2() {
+        return mapper.findAll2();
     }
 }

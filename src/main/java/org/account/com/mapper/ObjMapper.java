@@ -1,6 +1,7 @@
 package org.account.com.mapper;
 
 import org.account.com.model.ObjectModel;
+import org.account.com.model.ObjectModel2;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
@@ -15,4 +16,9 @@ public interface ObjMapper {
                     "where d.dates = (select MAX(dates) from datas_2_table) order by CONVERT(c.`names` USING gbk)"
     })
     List<ObjectModel> findAll();
+
+    @Select({
+            "select d.T11 ywgw,d.T12 ywhw,d.P11 ywgy,d.P12 ywhy from datas_3_table d ORDER BY d.dates DESC LIMIT 1"
+    })
+    ObjectModel2 findAll2();
 }
