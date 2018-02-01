@@ -30,7 +30,7 @@ public class ObjectController {
         return result;
     }
 
-    @GetMapping("/getDatas")
+    @GetMapping("/getDatas2")
     public @ResponseBody
     ResponseResult<ObjectModel2> getDatas2() {
         ObjectModel2 model2s = objService.findAll2();
