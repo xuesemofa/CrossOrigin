@@ -262,3 +262,69 @@
 2018-01-30 09:15:36.445  INFO 5036 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
 2018-01-30 09:15:36.551  INFO 5036 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9004 (http)
 2018-01-30 09:15:36.559  INFO 5036 --- [main] org.account.com.App                      : Started App in 8.39 seconds (JVM running for 10.235)
+2018-02-07 17:52:19.912  INFO 208 --- [main] org.account.com.App                      : Starting App on 110-PC with PID 208 (D:\work\spaces\nhxtWebService3.1\target\classes started by 222 in D:\work\spaces\nhxtWebService3.1)
+2018-02-07 17:52:19.952 DEBUG 208 --- [main] org.account.com.App                      : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.11.RELEASE
+2018-02-07 17:52:19.954  INFO 208 --- [main] org.account.com.App                      : No active profile set, falling back to default profiles: default
+2018-02-07 17:52:20.177  INFO 208 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ae50ce6: startup date [Wed Feb 07 17:52:20 CST 2018]; root of context hierarchy
+2018-02-07 17:52:23.285  INFO 208 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9004 (http)
+2018-02-07 17:52:23.306  INFO 208 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-07 17:52:23.309  INFO 208 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-07 17:52:23.530  INFO 208 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-07 17:52:23.531  INFO 208 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3358 ms
+2018-02-07 17:52:23.739  INFO 208 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-07 17:52:23.751  INFO 208 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-07 17:52:23.752  INFO 208 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-07 17:52:23.752  INFO 208 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-07 17:52:23.752  INFO 208 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-07 17:52:24.763  INFO 208 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ae50ce6: startup date [Wed Feb 07 17:52:20 CST 2018]; root of context hierarchy
+2018-02-07 17:52:24.857  INFO 208 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/getDatas2],methods=[GET]}" onto public org.account.com.util.resultJson.ResponseResult<org.account.com.model.ObjectModel2> org.account.com.controller.ObjectController.getDatas2()
+2018-02-07 17:52:24.860  INFO 208 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/getDatas],methods=[GET]}" onto public org.account.com.util.resultJson.ResponseResult<java.util.List<org.account.com.model.ObjectModel>> org.account.com.controller.ObjectController.getDatas()
+2018-02-07 17:52:24.864  INFO 208 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-07 17:52:24.865  INFO 208 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-07 17:52:24.900  INFO 208 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-07 17:52:24.906  INFO 208 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-07 17:52:24.949  INFO 208 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-07 17:52:25.455  INFO 208 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-07 17:52:25.651  INFO 208 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9004 (http)
+2018-02-07 17:52:25.663  INFO 208 --- [main] org.account.com.App                      : Started App in 6.877 seconds (JVM running for 7.641)
+2018-02-07 17:52:44.484  INFO 208 --- [http-nio-9004-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-07 17:52:44.485  INFO 208 --- [http-nio-9004-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-07 17:52:44.529  INFO 208 --- [http-nio-9004-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 44 ms
+2018-02-07 17:52:45.222 DEBUG 208 --- [http-nio-9004-exec-2] o.account.com.mapper.ObjMapper.findAll   : ==>  Preparing: select c.`names` jzmc,d.P11 ywgy,d.P12 ywhy,d.P21 ewgy,d.P22 ewhy,d.T11 ywgw,d.T12 ywhw,d.T21 ewgw,d.T22 ewhw from datas_2_table d left join crew_table c on c.uuid = d.jzid where d.dates = (select MAX(dates) from datas_2_table) order by CONVERT(c.`names` USING gbk) 
+2018-02-07 17:52:45.260 DEBUG 208 --- [http-nio-9004-exec-2] o.account.com.mapper.ObjMapper.findAll   : ==> Parameters: 
+2018-02-07 17:52:46.270 DEBUG 208 --- [http-nio-9004-exec-2] o.account.com.mapper.ObjMapper.findAll   : <==      Total: 115
+2018-02-07 17:57:25.713  WARN 208 --- [http-nio-9004-exec-7] o.s.web.servlet.PageNotFound             : Request method 'POST' not supported
+2018-03-09 09:30:51.394  INFO 5572 --- [main] org.account.com.App                      : Starting App on 110-PC with PID 5572 (D:\work\spaces\nhxtWebService3.1\target\classes started by 222 in D:\work\spaces\nhxtWebService3.1)
+2018-03-09 09:30:51.448 DEBUG 5572 --- [main] org.account.com.App                      : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.11.RELEASE
+2018-03-09 09:30:51.449  INFO 5572 --- [main] org.account.com.App                      : No active profile set, falling back to default profiles: default
+2018-03-09 09:30:51.702  INFO 5572 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@52815fa3: startup date [Fri Mar 09 09:30:51 CST 2018]; root of context hierarchy
+2018-03-09 09:30:57.519  INFO 5572 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9004 (http)
+2018-03-09 09:30:57.546  INFO 5572 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-03-09 09:30:57.547  INFO 5572 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-03-09 09:30:57.766  INFO 5572 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-03-09 09:30:57.766  INFO 5572 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6069 ms
+2018-03-09 09:30:58.043  INFO 5572 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-09 09:30:58.055  INFO 5572 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-09 09:30:58.056  INFO 5572 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-09 09:30:58.057  INFO 5572 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-09 09:30:58.058  INFO 5572 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-09 09:30:59.312  INFO 5572 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@52815fa3: startup date [Fri Mar 09 09:30:51 CST 2018]; root of context hierarchy
+2018-03-09 09:30:59.523  INFO 5572 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/getDatas2],methods=[GET]}" onto public org.account.com.util.resultJson.ResponseResult<org.account.com.model.ObjectModel2> org.account.com.controller.ObjectController.getDatas2()
+2018-03-09 09:30:59.528  INFO 5572 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/getDatas],methods=[GET]}" onto public org.account.com.util.resultJson.ResponseResult<java.util.List<org.account.com.model.ObjectModel>> org.account.com.controller.ObjectController.getDatas()
+2018-03-09 09:30:59.533  INFO 5572 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-09 09:30:59.535  INFO 5572 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-09 09:30:59.601  INFO 5572 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-09 09:30:59.601  INFO 5572 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-09 09:30:59.662  INFO 5572 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-09 09:31:00.529  INFO 5572 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-03-09 09:31:00.708  INFO 5572 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9004 (http)
+2018-03-09 09:31:00.718  INFO 5572 --- [main] org.account.com.App                      : Started App in 10.386 seconds (JVM running for 11.572)
+2018-03-09 09:32:45.814  INFO 5572 --- [http-nio-9004-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-09 09:32:45.815  INFO 5572 --- [http-nio-9004-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-09 09:32:45.853  INFO 5572 --- [http-nio-9004-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 38 ms
+2018-03-09 09:33:01.965 DEBUG 5572 --- [http-nio-9004-exec-9] o.account.com.mapper.ObjMapper.findAll   : ==>  Preparing: select c.`names` jzmc,d.P11 ywgy,d.P12 ywhy,d.P21 ewgy,d.P22 ewhy,d.T11 ywgw,d.T12 ywhw,d.T21 ewgw,d.T22 ewhw from datas_2_table d left join crew_table c on c.uuid = d.jzid where d.dates = (select MAX(dates) from datas_2_table) order by CONVERT(c.`names` USING gbk) 
+2018-03-09 09:33:01.998 DEBUG 5572 --- [http-nio-9004-exec-9] o.account.com.mapper.ObjMapper.findAll   : ==> Parameters: 
+2018-03-09 09:33:02.781 DEBUG 5572 --- [http-nio-9004-exec-9] o.account.com.mapper.ObjMapper.findAll   : <==      Total: 115
+2018-03-09 09:33:47.080 DEBUG 5572 --- [http-nio-9004-exec-10] o.account.com.mapper.ObjMapper.findAll2  : ==>  Preparing: select d.T11 ywgw,d.T12 ywhw,d.P11 ywgy,d.P12 ywhy from datas_3_table d ORDER BY d.dates DESC LIMIT 1 
+2018-03-09 09:33:47.082 DEBUG 5572 --- [http-nio-9004-exec-10] o.account.com.mapper.ObjMapper.findAll2  : ==> Parameters: 
+2018-03-09 09:33:47.123 DEBUG 5572 --- [http-nio-9004-exec-10] o.account.com.mapper.ObjMapper.findAll2  : <==      Total: 1
